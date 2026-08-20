@@ -1,6 +1,6 @@
 'use client'
 
-import { useMemo, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import { Bell, BookOpen, CalendarDays, Check, CheckCircle2, ChevronDown, ClipboardCheck, Clock3, FileText, GraduationCap, LayoutDashboard, Menu, MessageSquareText, MoreHorizontal, Search, Settings2, Sparkles, UsersRound, X } from 'lucide-react'
 
 type Role = 'Mahasiswa' | 'Dosen Pembimbing' | 'Kaprodi' | 'Panitia TA' | 'Penguji'
